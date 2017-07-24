@@ -6,6 +6,10 @@ Layout Experiment - By Thomas Beton
 - An experiment in a way of browsing 'pages' using navigation buttons.
 - I can think of ways to improve this, but it was a fun piece of work.
 
+**Screenshot Album:**
+
+- http://imgur.com/a/L366m
+
 **Install:**
 
 - Clone the repository.
