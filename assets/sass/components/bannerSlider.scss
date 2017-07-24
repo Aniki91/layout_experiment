@@ -1,0 +1,37 @@
+.banner_slider {
+  position: relative;
+  width: 4320px;
+  height: 400px;
+
+  .banner_slides {
+    list-style-type: none;
+    width: 1080px;
+    margin: 0px;
+    padding: 0px;
+    display: inline;
+
+    .slide {
+      float: left;
+      height: 400px;
+      width: 1080px
+    }
+
+    .slide_one {
+      background: url("/assets/images/banner_one.jpg") no-repeat;
+      background-size: cover;
+      background-position: center;
+    }
+
+    .slide_two {
+      background: url("/assets/images/banner_two.jpg") no-repeat;
+      background-size: cover;
+      background-position: center;
+    }
+
+    .slide_three {
+      background: url("/assets/images/banner_three.jpg") no-repeat;
+      background-size: cover;
+      background-position: center;
+    }
+  }
+}

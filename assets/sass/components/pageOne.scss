@@ -1,0 +1,22 @@
+.page_one {
+  position: relative;
+  width: 33.33%;
+  float: left;
+  margin-top: 80px;
+}
+
+.page_one_header {
+  width: 1080px;
+  height: 400px;
+  margin: auto;
+  overflow-x: hidden;
+}
+
+.page_one_content {
+  width: 1080px;
+  height: 400px;
+  margin: auto;
+  background-color: $colorThree;
+  border-bottom-left-radius: 5px;
+  border-bottom-right-radius: 5px;
+}

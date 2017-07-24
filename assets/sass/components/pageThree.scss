@@ -1,0 +1,15 @@
+.page_three {
+  position: relative;
+  width: 33.33%;
+  float: left;
+  margin-top: 80px;
+}
+
+.page_three_container {
+  width: 1080px;
+  height: 800px;
+  margin: auto;
+  background-color: $colorThree;
+  border-bottom-left-radius: 5px;
+  border-bottom-right-radius: 5px;
+}

@@ -1,0 +1,58 @@
+.content_features {
+  width: 33.33%;
+  height: 100%;
+  float: left;
+
+  .feature_img {
+    width: 140px;
+    height: 140px;
+    margin: auto;
+    position: relative;
+    top: 30px;
+    border-radius: 50%;
+  }
+
+  .feature_title {
+    width: 100%;
+    height: 35px;
+    position: relative;
+    top: 45px;
+    text-align: center;
+    font-family: $fontOne;
+    font-size: 24px;
+    font-weight: 100;
+    user-select: none;
+    cursor: default;
+  }
+
+  .feature_desc {
+    width: 90%;
+    height: 150px;
+    position: relative;
+    top: 60px;
+    margin: auto;
+    text-align: center;
+    font-family: $fontOne;
+    font-weight: 100;
+    user-select: none;
+    cursor: default;
+  }
+
+  .feature_one {
+    background: url("/assets/images/banner_one.jpg") no-repeat;
+    background-size: cover;
+    background-position: center;
+  }
+
+  .feature_two {
+    background: url("/assets/images/banner_two.jpg") no-repeat;
+    background-size: cover;
+    background-position: center;
+  }
+
+  .feature_three {
+    background: url("/assets/images/banner_three.jpg") no-repeat;
+    background-size: cover;
+    background-position: center;
+  }
+}

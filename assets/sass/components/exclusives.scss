@@ -1,0 +1,66 @@
+.exclusive_title {
+  position: relative;
+  top: 70px;
+  font-size: 64px;
+  text-align: left;
+  width: 90%;
+  height: 80px;
+  font-family: $fontOne;
+  font-weight: 300;
+  margin: auto;
+  user-select: none;
+  cursor: default;
+}
+
+.exclusive_container {
+  width: 50%;
+  height: 300px;
+  position: relative;
+  top: 80px;
+  float: left;
+
+  .exclusive_name {
+    color: $colorFour;
+    font-family: $fontOne;
+    font-weight: 400;
+    position: relative;
+    top: 75px;
+    font-size: 24px;
+    width: 78%;
+    margin: auto;
+    user-select: none;
+    cursor: default;
+  }
+
+  .exclusive_desc {
+    font-family: $fontOne;
+    font-weight: 300;
+    position: relative;
+    top: 90px;
+    width: 78%;
+    margin: auto;
+    text-align: left;
+    user-select: none;
+    cursor: default;
+  }
+
+  .exclusive_media {
+    width: 80%;
+    height: 80%;
+    margin: auto;
+    margin-top: 30px;
+    border-radius: 3px;
+  }
+
+  .exclusive_media_one {
+    background: url("/assets/images/banner_one.jpg") no-repeat;
+    background-size: cover;
+    background-position: center;
+  }
+
+  .exclusive_media_two {
+    background: url("/assets/images/banner_three.jpg") no-repeat;
+    background-size: cover;
+    background-position: center;
+  }
+}

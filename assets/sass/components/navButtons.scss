@@ -1,0 +1,67 @@
+.prev_page {
+  width: 55px;
+  height: 55px;
+  position: relative;
+  left: -65px;
+  top: -428px;
+  float: left;
+  z-index: 1;
+  transform: translateY(-50%);
+  transform: rotate(180deg);
+  background: url("/assets/images/nav_arrow.png") no-repeat;
+  background-size: cover;
+  background-position: center;
+  cursor: pointer;
+  opacity: 1;
+
+  &.prev_page--disabled {
+    opacity: 0.5;
+  }
+
+  &.prev_reviews {
+    top: -308px !important;
+  }
+
+  &.prev_exclusives {
+    top: -308px !important;
+  }
+}
+
+.next_page {
+  width: 55px;
+  height: 55px;
+  position: relative;
+  right: -65px;
+  z-index: 1;
+  transform: translateY(-50%);
+  top: -400px;
+  float: right;
+  background: url("/assets/images/nav_arrow.png") no-repeat;
+  background-size: cover;
+  background-position: center;
+  cursor: pointer;
+  opacity: 1;
+
+  &.next_page--disabled {
+    opacity: 0.5;
+  }
+
+  &.next_reviews {
+    top: -280px !important;
+  }
+
+  &.next_exclusives {
+    top: -280px !important;
+  }
+}
+
+// Buttons remove below 1225px to avoid Page overlaps on navigation.
+@media screen and (max-width: 1225px) {
+  .prev_page {
+    display: none;
+  }
+
+  .next_page {
+    display: none;
+  }
+}
